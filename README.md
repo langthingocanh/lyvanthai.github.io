@@ -35,17 +35,17 @@
       border-bottom: 3px solid #dbe6ff;
     }
     .photo {
-      width: 50px;
-      height: 50px;
+      width: 130px;
+      height: 130px;
       border-radius: 50%;
       overflow: hidden;
       border: 3px solid #c9dcff;
       flex-shrink: 0;
     }
-   img.profile {
-    width: 150px;
-    border-radius: 50%;
-}
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
     .info h1 {
       margin: 0;
@@ -155,9 +155,9 @@
 <body>
   <div class="container">
     <header>
-      <img class="profile" src="att.83CsIdifIHbWXwPYMQsyeKfhwBWfcQZEl6l3dYgg9x8.jpeg" alt="學生照片">
+      <div class="photo">
         <!-- Ảnh bạn đã tải lên -->
-        <img src="163EFF6C-EA83-4302-BA8D-BFAC6261A5C6.jpeg" alt="學生照片">
+        <img src="att.83CsIdifIHbWXwPYMQsyeKfhwBWfcQZEl6l3dYgg9x8.jpeg" alt="學生照片">
       </div>
       <div class="info">
         <h1>李文泰（範例姓名）</h1>
@@ -204,7 +204,7 @@
 
         <h2>語言能力</h2>
         <ul>
-          <li>越南文（母語）</li>
+          <li>中文（母語）</li>
           <li>英文（中級）</li>
         </ul>
 
@@ -238,7 +238,7 @@
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'resume_113011131.html';
+      a.download = 'resume_113011139.html';
       a.click();
       URL.revokeObjectURL(url);
     });

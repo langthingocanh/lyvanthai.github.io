@@ -160,7 +160,7 @@
         <img src="163EFF6C-EA83-4302-BA8D-BFAC6261A5C6.jpeg" alt="學生照片">
       </div>
       <div class="info">
-        <h1>凌氏玉映（範例姓名）</h1>
+        <h1>李文泰（範例姓名）</h1>
         <p>學生 / 健康管理系</p>
         <div class="chips">
           <div class="chip">學號: 113011131</div>

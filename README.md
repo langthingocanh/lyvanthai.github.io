@@ -15,7 +15,7 @@
     }
     .resume {
       width: 80%;
-      max-width: 800px;
+      max-width: 50px;
       background: #fff;
       margin: 40px auto;
       padding: 30px;

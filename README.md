@@ -35,8 +35,8 @@
       border-bottom: 3px solid #dbe6ff;
     }
     .photo {
-      width: 130px;
-      height: 130px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       overflow: hidden;
       border: 3px solid #c9dcff;
